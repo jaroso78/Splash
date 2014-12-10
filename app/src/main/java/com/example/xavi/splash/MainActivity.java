@@ -3,7 +3,6 @@ package com.example.xavi.splash;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -15,7 +14,7 @@ import java.util.TimerTask;
 
 public class MainActivity extends Activity {
 
-    public static final long Retardo =3000; //Definimos el retardo.
+    public static final long Retardo =3000; //Definimos el retardo en milisegundos.
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
